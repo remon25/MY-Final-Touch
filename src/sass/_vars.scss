@@ -1,0 +1,25 @@
+// /*--------colors-------------*\
+// \*---------------------------*/
+$main-bg:#101519;
+$firstblue:#14bfe5;
+$secondblue:#2fdbb6;
+$gray:#666869;
+$graylight:#617f98;
+$graylighter:#a4a4a5;
+$graylightest:#c0c4c7;
+$grayalt:#98C7ED;
+$skylight:#86fcde;
+// /*-------- Fonts-------------*\
+// \*---------------------------*/
+$main-font:'Roses Bolero', sans-serif;
+$alt-font:'KAIVALYA','sans-serif';
+
+
+// /*--------Reused extends-----*\
+// \*---------------------------*/
+%textgradient{
+background: linear-gradient(to right,#14bfe5,#2fdbb6 ); 
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;  
+}
+
